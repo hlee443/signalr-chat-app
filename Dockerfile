@@ -7,18 +7,21 @@ COPY ./chatapp-client/ ./
 RUN npm run build
 
 # Build ASP.NET 7 backend
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS backend-build
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["ChatAppServer/ChatAppServer.csproj", "ChatAppServer/"]
+RUN dotnet restore "ChatAppServer/ChatAppServer.csproj"
+COPY . .
+WORKDIR "/src/ChatAppServer"
+RUN dotnet build "ChatAppServer.csproj" -c Release -o /app/build
+
+FROM build AS publish
+COPY --from=frontend-build /app/dist ./wwwroot
+RUN dotnet publish "ChatAppServer.csproj" -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS final
 WORKDIR /app
-COPY ./ChatAppServer/*.csproj ./ChatAppServer/
-RUN dotnet restore ./ChatAppServer/*.csproj
-
-COPY ./ChatAppServer/ ./ChatAppServer/
-COPY --from=frontend-build /app/dist ./ChatAppServer/wwwroot
-
-RUN dotnet publish ./ChatAppServer/*.csproj -c Release -o out
-
-# Build runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
-WORKDIR /app
-COPY --from=backend-build /app/out .
+EXPOSE 80
+EXPOSE 443
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ChatAppServer.dll"]
