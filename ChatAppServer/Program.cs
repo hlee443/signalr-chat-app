@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy", builder =>
     {
-        builder.WithOrigins("earthy-committee-production.up.railway.app") // React frontend URL
+        builder.WithOrigins("https://signalr-chatapp.up.railway.app/") // React frontend URL
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();

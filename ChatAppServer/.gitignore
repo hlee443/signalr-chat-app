@@ -1,0 +1,17 @@
+# .gitignore for ChatAppServer (ASP.NET Core backend)
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userprefs
+*.db
+*.exe
+*.dll
+*.pdb
+*.cache
+*.bak
+*.log
+*.swp
+*.lock
+appsettings.*.json
+.env
