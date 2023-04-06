@@ -37,3 +37,4 @@
 /Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/bin/Debug/net7.0/System.CodeDom.dll
+/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/bin/Debug/net7.0/ChatAppServer.staticwebassets.runtime.json

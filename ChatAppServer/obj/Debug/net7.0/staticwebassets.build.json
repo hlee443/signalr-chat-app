@@ -1,11 +1,88 @@
 {
   "Version": 1,
-  "Hash": "ptzCM79MNYq0/ScLOnAlFVMOWNRr/ErcmqEI2Y2psZk=",
+  "Hash": "bcOmtduJGRnPJDKOqEgyrhACvkl7S4IjLfiL/xltSbk=",
   "Source": "ChatAppServer",
   "BasePath": "_content/ChatAppServer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatAppServer/wwwroot",
+      "Source": "ChatAppServer",
+      "ContentRoot": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/",
+      "BasePath": "_content/ChatAppServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/assets/index-c0ee9afb.js",
+      "SourceId": "ChatAppServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/",
+      "BasePath": "_content/ChatAppServer",
+      "RelativePath": "assets/index-c0ee9afb.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/index-c0ee9afb.js"
+    },
+    {
+      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/assets/index-c12140dc.css",
+      "SourceId": "ChatAppServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/",
+      "BasePath": "_content/ChatAppServer",
+      "RelativePath": "assets/index-c12140dc.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/index-c12140dc.css"
+    },
+    {
+      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/index.html",
+      "SourceId": "ChatAppServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/",
+      "BasePath": "_content/ChatAppServer",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/vite.svg",
+      "SourceId": "ChatAppServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/",
+      "BasePath": "_content/ChatAppServer",
+      "RelativePath": "vite.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/vite.svg"
+    }
+  ]
 }

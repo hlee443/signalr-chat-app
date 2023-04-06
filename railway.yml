@@ -1,5 +1,7 @@
-services:
-  web:
-    type: web
-    image: "Dockerfile"
-    port: 80
+[build]
+builder = "dockerfile"
+dockerfilePath = "./ChatAppServer/Dockerfile"
+
+[deploy]
+startCommand = "dotnet ChatAppServer.dll"
+restartPolicyType = "never"
