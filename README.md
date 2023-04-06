@@ -26,7 +26,7 @@ ChatApp is a real-time chat application built with React, SignalR, and ASP.NET C
 ## Installation
 
 ```
-git clone https://github.com/yourusername/ChatApp.git
+git clone https://github.com/hlee443/signalr-chat-app.git
 ```
 
 Install required packages:
