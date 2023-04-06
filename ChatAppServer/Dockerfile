@@ -1,10 +1,11 @@
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
-EXPOSE 5181
+EXPOSE 80
+EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["ChatApp/ChatAppServer.csproj", "ChatAppServer/"]
+COPY ["ChatAppServer/ChatAppServer.csproj", "ChatAppServer/"]
 RUN dotnet restore "ChatAppServer/ChatAppServer.csproj"
 COPY . .
 WORKDIR "/src/ChatAppServer"

@@ -38,7 +38,7 @@ const ChannelList = ({ onSelectChannel }) => {
   };
 
   return (
-    <div className="flex flex-col w-64 h-screen bg-gray-800">
+    <div className="flex flex-col w-full h-screen bg-gray-800">
       <div className="flex items-center justify-center h-16 px-4 border-b border-gray-900">
         <h1 className="text-xl font-bold text-white">Channel List</h1>
       </div>
@@ -71,7 +71,7 @@ const ChannelList = ({ onSelectChannel }) => {
                   type="text"
                   value={editChannelName}
                   onChange={(e) => setEditChannelName(e.target.value)}
-                  className="flex-1 ml-2 px-2 py-1 text-gray-900 placeholder-gray-500 bg-gray-300 border border-gray-400 rounded"
+                  className="flex-1 mx-2 px-2  w-1/2 py-1 text-gray-900 placeholder-gray-500 bg-gray-300 border border-gray-400 rounded"
                 />
                 <button
                   onClick={(e) => {

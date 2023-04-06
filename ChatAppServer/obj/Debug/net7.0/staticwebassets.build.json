@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bcOmtduJGRnPJDKOqEgyrhACvkl7S4IjLfiL/xltSbk=",
+  "Hash": "qywelvGLlCCjRx/DbukuNR08iRRa5JhbxH9cz1Xfrr0=",
   "Source": "ChatAppServer",
   "BasePath": "_content/ChatAppServer",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/assets/index-c0ee9afb.js",
+      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/assets/index-1d385622.css",
       "SourceId": "ChatAppServer",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/",
       "BasePath": "_content/ChatAppServer",
-      "RelativePath": "assets/index-c0ee9afb.js",
+      "RelativePath": "assets/index-1d385622.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/index-c0ee9afb.js"
+      "OriginalItemSpec": "wwwroot/assets/index-1d385622.css"
     },
     {
-      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/assets/index-c12140dc.css",
+      "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/assets/index-8e5d86d1.js",
       "SourceId": "ChatAppServer",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/",
       "BasePath": "_content/ChatAppServer",
-      "RelativePath": "assets/index-c12140dc.css",
+      "RelativePath": "assets/index-8e5d86d1.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/index-c12140dc.css"
+      "OriginalItemSpec": "wwwroot/assets/index-8e5d86d1.js"
     },
     {
       "Identity": "/Users/ivylee/Documents/Term_4/SEASHARK/ChatApp/ChatAppServer/wwwroot/index.html",
